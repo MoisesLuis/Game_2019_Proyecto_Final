@@ -194,18 +194,7 @@ public class VentanaPrincipal extends JFrame implements ActionListener {
     public void actionPerformed(ActionEvent e){
         int a=0,b=0;
         if (e.getSource() == botonTanq){
-            for (int i = 0; i<numCuadrosX; i++){
-                for (int j = 0; j<numCuadrosY; j++){
-                    if (matrizLogicaE[i][j] == 5){
-                        quitarMiVehiculoActual();
-                        cambiarAvionATanque();
-                        a = i;
-                        b = j;
-                    }
-                }
-            }
-            System.out.println("Estas presionando el:  Tanque");
-            System.out.println("["+a+"]"+"["+b+"]");
+
         }
         else if (e.getSource() == botonAvion){
             for (int i = 0; i<numCuadrosX; i++){
