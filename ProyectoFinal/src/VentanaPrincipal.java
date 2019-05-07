@@ -150,7 +150,7 @@ public class VentanaPrincipal extends JFrame implements ActionListener {
         botonTirarDado2.addActionListener(this);
 
 
-        ImageIcon tanq = new ImageIcon("src/imagenes/tanque.png");
+        ImageIcon tanq = new ImageIcon("src/tanque.png");
         botonTanq.setBounds(20,35,200,100);
         botonTanq.setIcon(new ImageIcon(tanq.getImage().getScaledInstance(botonTanq.getWidth(),botonTanq.getHeight(),Image.SCALE_SMOOTH)));
         botonTanq.setBorder(null);
